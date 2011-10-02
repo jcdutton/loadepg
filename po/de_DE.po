@@ -1,0 +1,70 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Klaus Schmidinger <kls@cadsoft.de>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <dpluca@libero.it>\n"
+"POT-Creation-Date: 2008-06-26 18:47+0200\n"
+"PO-Revision-Date: 2008-06-22 10:15+0200\n"
+"Last-Translator: Klaus Schmidinger <kls@cadsoft.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load EPG type MediaHighWay, SkyBox, from script or file"
+msgstr "Lade EPG von MediaHighWay, SkyBox, Skript oder Datei"
+
+msgid "LoadEPG"
+msgstr "Lade EPG"
+
+msgid "Stopped loading"
+msgstr "Laden beendet"
+
+msgid "Wait loading epg data"
+msgstr "Bitte warten, lade epg daten"
+
+msgid "Error loading"
+msgstr "Fehler beim laden"
+
+msgid "Completed loading"
+msgstr "Download komplett"
+
+msgid "Select a provider and press Ok"
+msgstr "Auswahl des Providers mit Ok"
+
+msgid "The plugin is already active"
+msgstr "Das Plugin ist bereits aktiv"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Auto"
+msgstr "Automatisch"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Use file channels equivalents"
+msgstr ""
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "DVB-S device for scanning"
+msgstr "DVB-S device fürs scannen"
+
+msgid "DVB-S device with rotor"
+msgstr "DVB-S device mit Rotor"
+
+msgid "Enable messages OSD"
+msgstr "OSD Mitteilungen"
+
+msgid "Invalid provider number"
+msgstr "Unzulässige provider nummer"

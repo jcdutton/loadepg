@@ -1,0 +1,72 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Arnold Niessen <niessen@iae.nl> <arnold.niessen@philips.com>, 2001
+# Hans Dingemans <hans.dingemans@tacticalops.nl>, 2003
+# Maarten Wisse <Maarten.Wisse@urz.uni-hd.de>, 2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <dpluca@libero.it>\n"
+"POT-Creation-Date: 2008-06-26 18:47+0200\n"
+"PO-Revision-Date: 2008-06-22 10:15+0200\n"
+"Last-Translator: Maarten Wisse <Maarten.Wisse@urz.uni-hd.de>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load EPG type MediaHighWay, SkyBox, from script or file"
+msgstr "Laad EPG type MediaHighWay, SkyBox, via script of bestand"
+
+msgid "LoadEPG"
+msgstr "LoadEPG"
+
+msgid "Stopped loading"
+msgstr "Gestopt met laden"
+
+msgid "Wait loading epg data"
+msgstr "EPG data wordt geladen"
+
+msgid "Error loading"
+msgstr "Fout bij laden"
+
+msgid "Completed loading"
+msgstr "Laden gereed"
+
+msgid "Select a provider and press Ok"
+msgstr "Selecteer een provider en druk op OK"
+
+msgid "The plugin is already active"
+msgstr "De plugin is al actief"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Use file channels equivalents"
+msgstr "Maak gebruik van loadepg.equiv"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "DVB-S device for scanning"
+msgstr "DVB-S device voor het scannen"
+
+msgid "DVB-S device with rotor"
+msgstr "DVB-S device met rotor"
+
+msgid "Enable messages OSD"
+msgstr "OSD Boodschappen toestaan"
+
+msgid "Invalid provider number"
+msgstr "Ongeldig provider nummer"

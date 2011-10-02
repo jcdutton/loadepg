@@ -1,0 +1,73 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Alberto Carraro <bertocar@tin.it>, 2001
+# Antonio Ospite <ospite@studenti.unina.it>, 2003
+# Sean Carlos <seanc@libero.it>, 2005
+# Gringo <vdr-italian@tiscali.it>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <dpluca@libero.it>\n"
+"POT-Creation-Date: 2008-06-26 18:47+0200\n"
+"PO-Revision-Date: 2008-06-22 10:15+0200\n"
+"Last-Translator: Gringo <vdr-italian@tiscali.it>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load EPG type MediaHighWay, SkyBox, from script or file"
+msgstr "Carica EPG tipo MediaHighWay, SkyBox, da script o file"
+
+msgid "LoadEPG"
+msgstr "LoadEPG"
+
+msgid "Stopped loading"
+msgstr "Caricamento interrotto"
+
+msgid "Wait loading epg data"
+msgstr "Attendi il caricamento dei dati"
+
+msgid "Error loading"
+msgstr "Errore di caricamento"
+
+msgid "Completed loading"
+msgstr "Caricamento completato"
+
+msgid "Select a provider and press Ok"
+msgstr "Seleziona un provider e premi Ok"
+
+msgid "The plugin is already active"
+msgstr "Il plugin è gia' attivo"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "None"
+msgstr "Nessuna"
+
+msgid "Use file channels equivalents"
+msgstr "Usa il file canali equivalenti"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Sì"
+
+msgid "DVB-S device for scanning"
+msgstr "Scheda DVB-S per scansione"
+
+msgid "DVB-S device with rotor"
+msgstr "Scheda DVB-S con rotore"
+
+msgid "Enable messages OSD"
+msgstr "Abilita i messaggi OSD"
+
+msgid "Invalid provider number"
+msgstr "Il numero di provider non è valido"

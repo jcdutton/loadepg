@@ -1,0 +1,77 @@
+VDR Plugin 'loadepg' Revision History
+-----------------------------------
+
+2005-02-05: Version 0.1.0
+- Initial revision.
+
+2005-02-07: Version 0.1.1
+- Correct time event.
+- Fixed progress bar.
+- Correct read configuration file with vdr 1.3.17.
+- Added "Provider name" in progress bar.
+
+2005-02-14: Version 0.1.2
+- Fixed a bug when epg pid ( 210, 211 ) are egual to channel pid ( function cFilter::AttachFilter ).
+- Added translation file ( file i18n.c ) for languages.
+
+2005-03-30: Version 0.1.3
+- Added setup menu.
+- Added file loadepg.equiv for equivalences between two or more channels ( see loadepg.equiv file for info ).
+- Added support for scanning on other dvb devices.
+
+2005-05-10: Version 0.1.4
+- Fixed error compilation with VDR += 1.3.24
+
+2005-09-13: Version 0.1.5
+- Fixed error compilation with VDR += 1.3.32
+
+2005-10-05: Version 0.1.6
+- Improved the source code for better preformances
+- Added Finnish translation (by Rolf Ahrenberg)
+- Added provider Canal Digital on S1W satellite (by Rolf Ahrenberg)
+
+2006-02-09: Version 0.1.7
+- Added support SVDRP, command LOAD <PROVIDER_NUMBER>
+- Added German translation (by Ronny Kornexl)
+- Update Finnish translation (by Rolf Ahrenberg)
+- Remove Canal Digital on S1W satellite (my previous error :-) )
+
+2006-04-26: Version 0.1.8
+- Added option '-c=PATH' or '--config=PATH' to specify directory of configuration data
+- Added timeout for no data epg available
+- Update loadepg.conf for provider Sky Italia
+- Added support for APIVERSION, VDR >= 1.3.47 (by Ronny Kornexl)
+
+2006-06-15: Version 0.1.9
+- Added support for data epg of Digital+ (S19.2E Spain - new mhwepg2)
+- Increase the timeout to 30 seconds (by Dick Streefland)
+- Added Dutch translation (by Dick Streefland)
+- Added Spanish translation (by Fernando)
+- Rewrite function set data transponder
+- Rewrite function get time transponder
+
+2007-05-31: Version 0.1.10
+- Added support to execute external script and to load epg data file (option SCRIPT, i.e loadepg.conf)
+- Added support to load epg data from external files (option FILE, i.e loadepg.conf)
+
+2007-07-26: Version 0.1.11
+- Fixed for new format epg of Digital+ (S19.2E Spain)
+
+2008-02-08: Version 0.1.12
+- Added support for APIVERSION, VDR >= 1.5.x
+
+2008-06-16: Version 0.2.0
+- Added support for data epg sent to SkyBox receivers (necessary dictionary huffman, at moment only for SkyItalia).
+- Changed system OSD. Now is used the current skin.
+- Added automatic scanning for search of a device available (see setup plugin).
+- Added support for tuning with rotor (see setup plugin).
+- Added support per APIVERSION, VDR >= 1.6.x and VDR >= 1.7.x
+
+2008-09-15: Version 0.2.1pre01
+- Added support for data epg sent to SkyBox UK
+
+2009-07-31: Version 0.2.2pre01
+- Fixed support for card DVB-S2
+
+2010-03-01: Version 0.2.3
+- Fixed function set data transponder for VDR >= 1.7.13

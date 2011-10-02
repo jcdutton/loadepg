@@ -1,0 +1,73 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Hannu Savolainen <hannu@opensound.com>, 2002
+# Jaakko Hyv‰tti <jaakko@hyvatti.iki.fi>, 2002
+# Niko Tarnanen <niko.tarnanen@hut.fi>, 2003
+# Rolf Ahrenberg <rahrenbe@cc.hut.fi>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <dpluca@libero.it>\n"
+"POT-Creation-Date: 2008-06-26 18:47+0200\n"
+"PO-Revision-Date: 2008-06-22 10:15+0200\n"
+"Last-Translator: Rolf Ahrenberg <rahrenbe@cc.hut.fi>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load EPG type MediaHighWay, SkyBox, from script or file"
+msgstr "P‰ivit‰ MediaHighway- tai SkyBox-ohjelmaopas"
+
+msgid "LoadEPG"
+msgstr "P‰ivit‰ ohjelmaopas"
+
+msgid "Stopped loading"
+msgstr "P‰ivitys pys‰ytetty"
+
+msgid "Wait loading epg data"
+msgstr "Odota ohjelmaoppaan latautumista"
+
+msgid "Error loading"
+msgstr "Virheellinen p‰ivitys"
+
+msgid "Completed loading"
+msgstr "P‰ivitys valmis"
+
+msgid "Select a provider and press Ok"
+msgstr "Paina 'OK' valittuasi palveluntarjoajan"
+
+msgid "The plugin is already active"
+msgstr "Laajennos on jo aktiivinen"
+
+msgid "Stop"
+msgstr "Lopeta"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "None"
+msgstr "Tyhj‰"
+
+msgid "Use file channels equivalents"
+msgstr "Suodata p‰‰llekk‰iset kanavat"
+
+msgid "No"
+msgstr "ei"
+
+msgid "Yes"
+msgstr "kyll‰"
+
+msgid "DVB-S device for scanning"
+msgstr "K‰yt‰ DVB-S-korttia"
+
+msgid "DVB-S device with rotor"
+msgstr "K‰yt‰ moottoroitua DVB-S-korttia"
+
+msgid "Enable messages OSD"
+msgstr "K‰yt‰ kuvaruutuviestej‰"
+
+msgid "Invalid provider number"
+msgstr "Virheellinen palveluntarjoajan valinta"

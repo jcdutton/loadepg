@@ -1,0 +1,100 @@
+This is a "plugin" for the Video Disk Recorder (VDR).
+
+Written by:                  Luca De Pieri <dpluca@libero.it>
+
+Project's homepage:          http://lukkinosat.altervista.org
+
+Latest version available at: http://lukkinosat.altervista.org
+
+See the file COPYING for license information.
+
+Thanks to all users of community "VDR Italy" for tests - http://vdr-italia.phpbb24.com
+Thanks to all users of irc channel for tests - #vdr irc.azzurra.org
+Thanks to "Hans Dingemans" and "Luca Olivetti" for code and tests
+
+
+Description:
+============
+This plugin load EPG data sent to MediaHighWay (Canal+ group)
+or SkyBox (Sky - News Corporation) receivers,
+or executes external scripts and load EPG data from file.
+
+
+Notes:
+======
+This plugin work with vdr >= 1.4.x (tested with 1.4.6, 1.5.14, 1.6.0, 1.7.0)
+
+
+Installation:
+=============
+- Unpack the archive to your plugins source directory.
+- If this is first installation, the plugin create directory 'loadepg'
+  to your plugins-directory (default '/video/plugins/loadepg') and
+  copy configuration files, else is necessary to copy manually configuration
+  files to your plugins-directory.
+- Compile vdr and plugins as usual.
+
+
+Commands OSD:
+=============
+Press Menu to select LoadEPG.
+Press Up or Down arrow for selected a source.
+Press Ok to start loading.
+To stop loading, press Menu to select LoadEPG, and press Red.
+
+
+Commands SVDRP:
+===============
+LIST - For list of sources available.
+  example: svdrpsend.pl PLUG LOADEPG LIST
+    
+LOAD <SOURCE_ID> - For loading epg data from source selected.
+  example: svdrpsend.pl PLUG LOADEPG LOAD 1
+
+
+Configuration files:
+====================
+The configuration files are located into your plugins-directory (default '/video/plugins/loadepg').
+Is possible specify an other directory for configuration files with the option '-c':
+  example: ./vdr -P'loadepg -c /etc/vdr/plugins' ...
+
+loadepg.conf - This file contains the list of sources for loading of epg data.
+               For loading epg data sent to Mediahighway (Ver.1) receivers:
+               MHW_1:<YourDescription>:<Frequency>:<Polarization>:<Source>:<SymbolRate>
+    
+               For loading epg data sent to Mediahighway (Ver.2) receivers:
+               MHW_2:<YourDescription>:<Frequency>:<Polarization>:<Source>:<SymbolRate>
+
+               For loading epg data sent to SkyBox receivers:
+               SKYBOX:<YourDescription>:<Frequency>:<Polarization>:<Source>:<SymbolRate>:<DictionaryHuffamn>:<Themes>
+
+loadepg.equiv - This file allows you to copy the epg data than one channel to
+                another channel (equivalent channel). For example, the channel
+                "Eurosport" is this in many bouquets, and you can make available
+                the epg data also in other channels.
+                Example:
+                  S13.0E-64511-6700-11504 S13.0E-318-200-13831 Eurosport
+                  
+		  S13.0E-64511-6700-11504 is Channel ID of "Eurosport" on 
+                  bouquet SkyItalia, and this is also copied on bouquet 
+                  "EUTELSAT-RMB" with Channel ID S13.0E-318-200-13831
+
+sky_it.dict - This file is dictionary Huffman for decoding epg data sent to
+              SkyBox receivers. I am able to decode only for bouquet
+              SkyItalia.
+
+sky_XX.dict - Any other file dictionary Huffman for decoding epg data sent to
+              SkyBox receivers in other countries. XX = language.
+
+sky_it.themes - This file is table themes for bouquet SkyItalia.
+
+sky_XX.themes - This file is table themes for other bouquets.
+
+
+Debug:
+======
+After to loaded are available in /tmp 3 files:
+epg.tmp - This file contains the epg data before of to be load in VDR.
+epg.err - This file contains the errors of decoding Huffman code (only SkyBox).
+epg.channels - This file contains the list channels available in epg data.
+

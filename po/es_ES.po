@@ -1,0 +1,70 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Ruben Nunez Francisco <ruben.nunez@tang-it.com>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <dpluca@libero.it>\n"
+"POT-Creation-Date: 2008-06-26 18:47+0200\n"
+"PO-Revision-Date: 2008-06-22 10:15+0200\n"
+"Last-Translator: Ruben Nunez Francisco <ruben.nunez@tang-it.com>\n"
+"Language-Team: <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Load EPG type MediaHighWay, SkyBox, from script or file"
+msgstr "Carga EPG tipo MediaHighWay, SkyBox, desde script o fichero"
+
+msgid "LoadEPG"
+msgstr "LoadEPG"
+
+msgid "Stopped loading"
+msgstr "Carga interrumpida"
+
+msgid "Wait loading epg data"
+msgstr "Espere mientras se carga el EPG"
+
+msgid "Error loading"
+msgstr "Error en la carga"
+
+msgid "Completed loading"
+msgstr "Carga completa"
+
+msgid "Select a provider and press Ok"
+msgstr "Seleccionar proveedor y pulsar OK"
+
+msgid "The plugin is already active"
+msgstr "El plugin ya está activo"
+
+msgid "Stop"
+msgstr "Stop"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Use file channels equivalents"
+msgstr "Utilizar fichero de equivalencias de canales"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "DVB-S device for scanning"
+msgstr "Dispositivo DVB-S para la busqueda"
+
+msgid "DVB-S device with rotor"
+msgstr "Dispositivo DVB-S con rotor"
+
+msgid "Enable messages OSD"
+msgstr "Habilita mensajes OSD"
+
+msgid "Invalid provider number"
+msgstr "Numero de proveedor no valido"
